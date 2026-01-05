@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Proxy Teacher Management System for efficient lecture claiming and timetable tracking.">
+    <meta name="theme-color" content="#4f46e5"> <title>Proxy Teacher System</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="app.js" defer></script>
+</head>
+<body>
+
+    <noscript>
+        <div style="padding: 20px; text-align: center; color: red;">
+            JavaScript is required to use the Proxy Teacher System. Please enable it in your browser settings.
+        </div>
+    </noscript>
+
+    <div id="toast" class="toast hidden" role="alert" aria-live="assertive">Action Successful</div>
+
+    <div id="login-view" class="login-container">
+        <div class="login-card">
+            <h1>Proxy Teacher Login</h1>
+            <p>Enter your teacher credential to access the dashboard.</p>
+            
+            <div class="form-group">
+                <label for="proxy-key">Teacher Key</label>
+                <input 
+                    type="text" 
+                    id="proxy-key" 
+                    name="teacher_key"
+                    placeholder="e.g. Patel Sneha R" 
+                    autocomplete="username"
+                    required
+                >
+            </div>
+            
+            <button id="btn-login" class="btn-primary">Sign In</button>
+            <p id="login-error" class="error-msg" role="alert"></p>
+        </div>
+        <footer class="footer">Developed by Ayush Mishra</footer>
+    </div>
+
+    <div id="app-view" class="app-container hidden">
+        
+        <button id="btn-menu" class="mobile-menu-btn" aria-label="Open Menu">
+            <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+        </button>
+
+        <div id="sidebar-overlay" class="overlay hidden"></div>
+
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="brand">Proxy System</div>
+                <button id="btn-close-sidebar" class="close-sidebar-btn" aria-label="Close Menu">&times;</button>
+            </div>
+            
+            <div class="user-info">
+                <span id="display-user">Teacher</span>
+                <small id="display-date">Loading...</small>
+            </div>
+            
+            <nav role="navigation">
+                <button class="nav-btn active" data-target="dashboard-section">
+                    Dashboard
+                </button>
+                <button class="nav-btn" data-target="claims-section">
+                    My Claims
+                </button>
+                <button class="nav-btn" data-target="timetable-section">
+                    My Timetable
+                </button>
+            </nav>
+
+            <button id="btn-logout" class="btn-logout">Logout</button>
+        </aside>
+
+        <main class="content">
+            
+            <section id="dashboard-section" class="active-section" aria-labelledby="dash-heading">
+                <div class="section-header">
+                    <h2 id="dash-heading">Available Lectures</h2>
+                    <button id="refresh-dashboard" class="btn-secondary" title="Reload Data">Refresh</button>
+                </div>
+                <div class="table-wrapper">
+                    <table id="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Time</th>
+                                <th scope="col">Dept</th>
+                                <th scope="col">Class</th>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Teacher</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            </tbody>
+                    </table>
+                    <div id="dashboard-empty" class="empty-state hidden">No lectures available to claim right now.</div>
+                </div>
+            </section>
+
+            <section id="claims-section" class="hidden-section" aria-labelledby="claims-heading">
+                <div class="section-header">
+                    <h2 id="claims-heading">My Claims</h2>
+                    <button id="refresh-claims" class="btn-secondary" title="Reload Data">Refresh</button>
+                </div>
+                <div class="table-wrapper">
+                    <table id="claims-table">
+                        <thead>
+                            <tr>
+                                <th scope="col">Time</th>
+                                <th scope="col">Class</th>
+                                <th scope="col">Subject</th>
+                                <th scope="col">Claimed At</th>
+                                <th scope="col">Status</th>
+                                <th scope="col">Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            </tbody>
+                    </table>
+                    <div id="claims-empty" class="empty-state hidden">You haven't claimed any lectures today.</div>
+                </div>
+            </section>
+
+            <section id="timetable-section" class="hidden-section" aria-labelledby="timetable-heading">
+                <div class="section-header">
+                    <h2 id="timetable-heading">My Timetable</h2>
+                    <button id="refresh-timetable" class="btn-secondary" title="Reload Data">Refresh</button>
+                </div>
+                <div class="table-wrapper">
+                    <table id="timetable-table">
+                        <thead></thead>
+                        <tbody></tbody>
+                    </table>
+                    <div id="timetable-empty" class="empty-state hidden">No timetable data found.</div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <div id="claim-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="modal-content">
+            <h3 id="modal-title">Claim Lecture</h3>
+            <p>Please provide a reason:</p>
+            
+            <label for="claim-reason" class="sr-only">Reason</label>
+            <input 
+                type="text" 
+                id="claim-reason" 
+                placeholder="e.g. Free period, Extra class" 
+                autocomplete="off"
+            />
+            
+            <div class="modal-actions">
+                <button id="btn-cancel-modal" class="btn-secondary">Cancel</button>
+                <button id="btn-confirm-claim" class="btn-primary">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

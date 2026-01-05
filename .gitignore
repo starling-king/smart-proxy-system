@@ -1,0 +1,31 @@
+# --- Python & System ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.env
+.venv/
+venv/
+env/
+.DS_Store
+Thumbs.db
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- Logs & Temp Files ---
+*.log
+*.tmp
+*.bak
+proxy_claims_log.txt
+
+# --- Project Data Strategy ---
+# 1. Ignore all files in these data folders...
+data/Absent_Lists/*
+data/Teacher_Timetables/*
+
+# 2. ...BUT keep the ".gitkeep" file so the folder itself is tracked by Git.
+!data/Absent_Lists/.gitkeep
+!data/Teacher_Timetables/.gitkeep

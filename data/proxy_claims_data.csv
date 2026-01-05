@@ -1,0 +1,23 @@
+ClaimID,Date,Time,Department,ClassOrLab,Subject,TeacherDisplay,TeacherKey,ProxyName,Reason,Status,ClaimTime,CancelTime
+1767351175829,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,Patel Sneha R,work,Cancelled,2026-01-02 16:22:55,2026-01-02 16:36:34
+1767351660315,2026-01-02,02:00 PM,IT,Room 102,OS,Amit,Amit,Patel Sneha R,study,Cancelled,2026-01-02 16:31:00,2026-01-02 16:36:49
+1767352033189,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,Patel Sneha R,work,Cancelled,2026-01-02 16:37:13,2026-01-02 16:39:17
+1767352475934,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,Patel Sneha R,task,Cancelled,2026-01-02 16:44:35,2026-01-02 16:44:56
+1767353467332,2026-01-02,11:00 AM,CS,Room 101,DBMS,Amit,Amit,Patel Sneha R,task,Cancelled,2026-01-02 17:01:07,2026-01-02 17:01:33
+1767353519744,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,Patel Sneha R,thing,Cancelled,2026-01-02 17:01:59,2026-01-02 17:02:12
+1767353526317,2026-01-02,11:00 AM,CS,Room 101,DBMS,Amit,Amit,Patel Sneha R,thing,Cancelled,2026-01-02 17:02:06,2026-01-02 17:02:42
+1767354406993,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,work,Cancelled,2026-01-02 17:16:46,2026-01-02 17:17:00
+1767354435546,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,task,Cancelled,2026-01-02 17:17:15,2026-01-02 17:17:40
+1767355848588,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,extra class,Cancelled,2026-01-02 17:40:48,2026-01-02 17:40:59
+1767356131587,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,work,Cancelled,2026-01-02 17:45:31,2026-01-02 17:55:11
+1767356685789,2026-01-02,11:00 AM,CS,Room 101,DBMS,Amit,Amit,patel sneha r,work,Cancelled,2026-01-02 17:54:45,2026-01-02 17:55:04
+1767357095839,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,free period,Cancelled,2026-01-02 18:01:35,2026-01-02 18:01:55
+1767357419582,2026-01-02,02:00 PM,IT,Room 102,OS,Amit,Amit,patel sneha r,jaj,Cancelled,2026-01-02 18:06:59,2026-01-02 18:17:30
+1767357448895,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,ff,Cancelled,2026-01-02 18:07:28,2026-01-02 18:07:44
+1767358061900,2026-01-02,02:00 PM,IT,Room 102,OS,Amit,Amit,patel sneha r,ff,Cancelled,2026-01-02 18:17:41,2026-01-02 18:17:53
+1767359420258,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,free period,Cancelled,2026-01-02 18:40:20,2026-01-02 18:40:53
+1767359473208,2026-01-02,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,study,Cancelled,2026-01-02 18:41:13,2026-01-02 18:44:16
+1767359480718,2026-01-02,02:00 PM,IT,Room 102,OS,Amit,Amit,patel sneha r,free period,Cancelled,2026-01-02 18:41:20,2026-01-02 18:44:19
+1767414049243,2026-01-03,3:00 PM,IT,lab10,core java,Amit,Amit,patel sneha r,work,Cancelled,2026-01-03 09:50:49,2026-01-03 10:46:23
+1767417405544,2026-01-03,10:15 AM,DS,Room 119,Pandas,Amit,Amit,patel sneha r,extra class,Cancelled,2026-01-03 10:46:45,2026-01-03 11:27:06
+1767591088341,2026-01-05,11:15 AM,CS,room 510,flask,Amit,Amit,patel sneha r,lecture,Active,2026-01-05 11:01:28,

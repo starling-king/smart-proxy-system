@@ -1,0 +1,5 @@
+# Default to auto-detect
+* text=auto
+
+# Force shell scripts to always be LF (Linux format)
+*.sh text eol=lf
