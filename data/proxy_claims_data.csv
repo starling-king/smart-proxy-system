@@ -21,3 +21,8 @@ ClaimID,Date,Time,Department,ClassOrLab,Subject,TeacherDisplay,TeacherKey,ProxyN
 1767414049243,2026-01-03,3:00 PM,IT,lab10,core java,Amit,Amit,patel sneha r,work,Cancelled,2026-01-03 09:50:49,2026-01-03 10:46:23
 1767417405544,2026-01-03,10:15 AM,DS,Room 119,Pandas,Amit,Amit,patel sneha r,extra class,Cancelled,2026-01-03 10:46:45,2026-01-03 11:27:06
 1767591088341,2026-01-05,11:15 AM,CS,room 510,flask,Amit,Amit,patel sneha r,lecture,Active,2026-01-05 11:01:28,
+1769255971271,2026-01-24,10:15 AM,DS,Room 119,Pandas,Amit,Amit,patel sneha r,ff,Cancelled,2026-01-24 17:29:31,2026-01-24 17:36:06
+1769256876079,2026-01-24,10:00 AM,CS,Lab 1,Python,Amit,Amit,Amit,dd,Cancelled,2026-01-24 17:44:36,2026-01-24 17:44:43
+1769256893448,2026-01-24,11:00 AM,CS,Room 101,DBMS,Amit,Amit,patel sneha r,dd,Cancelled,2026-01-24 17:44:53,2026-01-24 17:44:59
+1769258421528,2026-01-24,10:00 AM,CS,Lab 1,Python,Amit,Amit,patel sneha r,ff,Active,2026-01-24 18:10:21,
+1769260591096,2026-01-24,11:00 AM,CS,Room 101,DBMS,Amit,Amit,rohit,hh,Active,2026-01-24 18:46:31,

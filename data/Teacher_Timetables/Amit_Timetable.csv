@@ -1,9 +1,4 @@
 Day,Time,Department,ClassOrLab,Subject,TeacherKey
-Friday,10:00 AM,CS,Lab 1,Python,Amit
-Friday,11:00 AM,CS,Room 101,DBMS,Amit
-Friday,2:00 PM,IT,Room 102,OS,Amit
-Saturday,10:15 AM,DS,Room 119,Pandas,Amit
-Saturday,3:00 PM,IT,lab10,core java,Amit
-Saturday,8:00 AM,CS,Lab 13,computer networking,Amit
-Monday,11:15 AM,CS,room 510,flask,Amit
-Monday,2:00 PM,MAK,Room 119,core java,Amit
+Saturday,10:00 AM,CS,Lab 1,Python,Amit
+Saturday,11:00 AM,CS,Room 101,DBMS,Amit
+Saturday,02:00 PM,IT,Room 102,OS,Amit
