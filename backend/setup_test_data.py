@@ -70,6 +70,15 @@ def setup_data():
     atomic_write_csv(pd.DataFrame(sneha_data), TT_DIR / "Patel_Sneha_R.csv")
     print(f"   ✅ Timetable: Patel Sneha R ({current_day})")
 
+
+    
+
+    rohit_data = [
+        {"Day": current_day, "Time": "09:00 AM", "Department": "SE", "ClassOrLab": "lab 200", "Subject": "Maths", "TeacherKey": "rohit"},
+    ]
+    atomic_write_csv(pd.DataFrame(rohit_data), TT_DIR / "rohit.csv")
+    print(f"   ✅ Timetable: rohit ({current_day})")
+
     # --- MARK ABSENT (Atomic Text Write) ---
     absent_file = ABSENT_DIR / "absent_today.txt"
     temp_absent = ABSENT_DIR / f"absent_{os.getpid()}.tmp"
