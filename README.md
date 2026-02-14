@@ -1,4 +1,3 @@
-````markdown
 # 🎓 Smart Proxy Management System
 
 A structured and automated system for managing academic proxy (substitution) lectures.
