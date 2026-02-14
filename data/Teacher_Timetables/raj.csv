@@ -1,0 +1,19 @@
+Day,Time,Department,ClassOrLab,Subject,TeacherKey
+Monday,9:00 AM,CS,Room 401,Software Engineering,Raj
+Monday,11:00 AM,IT,Lab 6,Python,Raj
+Monday,2:00 PM,CS,Room 402,Database Systems,Raj
+Tuesday,10:00 AM,IT,Room 403,Operating Systems,Raj
+Tuesday,12:00 PM,CS,Lab 7,AI,Raj
+Tuesday,3:00 PM,IT,Room 404,Computer Networks,Raj
+Wednesday,9:00 AM,CS,Room 405,Data Structures,Raj
+Wednesday,11:00 AM,IT,Lab 6,Cloud Computing,Raj
+Wednesday,2:00 PM,CS,Room 406,Web Development,Raj
+Thursday,10:00 AM,CS,Room 407,Cyber Security,Raj
+Thursday,1:00 PM,IT,Lab 7,Machine Learning,Raj
+Thursday,3:00 PM,CS,Room 408,Software Engineering,Raj
+Friday,9:00 AM,IT,Room 409,Database Systems,Raj
+Friday,11:00 AM,CS,Lab 6,Python,Raj
+Friday,2:00 PM,IT,Room 410,Operating Systems,Raj
+Saturday,10:00 AM,CS,Room 411,AI,Raj
+Saturday,12:00 PM,IT,Lab 7,Computer Networks,Raj
+Saturday,2:00 PM,CS,Room 412,Cloud Computing,Raj

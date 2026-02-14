@@ -1,2 +1,19 @@
 Day,Time,Department,ClassOrLab,Subject,TeacherKey
-Saturday,09:00 AM,CS,Room 200,Maths,Patel Sneha R
+Monday,9:00 AM,CS,Room 201,Data Structures,Patel Sneha R
+Monday,11:00 AM,IT,Lab 1,Web Development,Patel Sneha R
+Monday,2:00 PM,CS,Room 202,DBMS,Patel Sneha R
+Tuesday,10:00 AM,CS,Lab 2,Python,Patel Sneha R
+Tuesday,12:00 PM,IT,Room 203,Cloud Computing,Patel Sneha R
+Tuesday,3:00 PM,CS,Room 204,AI,Patel Sneha R
+Wednesday,9:00 AM,IT,Room 205,Networking,Patel Sneha R
+Wednesday,11:00 AM,CS,Lab 3,Data Science,Patel Sneha R
+Wednesday,2:00 PM,CS,Room 206,OS,Patel Sneha R
+Thursday,10:00 AM,CS,Room 207,Cyber Security,Patel Sneha R
+Thursday,1:00 PM,IT,Lab 2,Python,Patel Sneha R
+Thursday,3:00 PM,CS,Room 208,DBMS,Patel Sneha R
+Friday,9:00 AM,CS,Lab 1,AI,Patel Sneha R
+Friday,11:00 AM,IT,Room 209,Cloud Computing,Patel Sneha R
+Friday,2:00 PM,CS,Room 210,Data Structures,Patel Sneha R
+Saturday,10:00 AM,CS,Room 211,Web Development,Patel Sneha R
+Saturday,12:00 PM,IT,Lab 3,Networking,Patel Sneha R
+Saturday,2:00 PM,CS,Room 212,OS,Patel Sneha R

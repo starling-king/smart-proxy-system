@@ -23,8 +23,8 @@ proxy_claims_log.txt
 
 # --- Project Data Strategy ---
 # 1. Ignore all files in these data folders...
-data/Absent_Lists/*
-data/Teacher_Timetables/*
+data/Absent_Lists/*.log
+data/Teacher_Timetables/*.log
 
 # 2. ...BUT keep the ".gitkeep" file so the folder itself is tracked by Git.
 !data/Absent_Lists/.gitkeep

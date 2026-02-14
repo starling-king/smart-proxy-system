@@ -1,0 +1,19 @@
+Day,Time,Department,ClassOrLab,Subject,TeacherKey
+Monday,9:00 AM,IT,Room 301,Operating Systems,Rohit
+Monday,11:00 AM,CS,Lab 4,Machine Learning,Rohit
+Monday,2:00 PM,CS,Room 302,Database Systems,Rohit
+Tuesday,10:00 AM,IT,Room 303,Computer Networks,Rohit
+Tuesday,12:00 PM,CS,Lab 5,Python,Rohit
+Tuesday,3:00 PM,IT,Room 304,Cloud Computing,Rohit
+Wednesday,9:00 AM,CS,Room 305,Data Structures,Rohit
+Wednesday,11:00 AM,IT,Lab 4,Cyber Security,Rohit
+Wednesday,2:00 PM,CS,Room 306,AI,Rohit
+Thursday,10:00 AM,IT,Room 307,Web Technologies,Rohit
+Thursday,1:00 PM,CS,Lab 5,Machine Learning,Rohit
+Thursday,3:00 PM,IT,Room 308,Operating Systems,Rohit
+Friday,9:00 AM,CS,Lab 4,Data Science,Rohit
+Friday,11:00 AM,IT,Room 309,Computer Networks,Rohit
+Friday,2:00 PM,CS,Room 310,Database Systems,Rohit
+Saturday,10:00 AM,IT,Room 311,Cloud Computing,Rohit
+Saturday,12:00 PM,CS,Lab 5,Python,Rohit
+Saturday,2:00 PM,IT,Room 312,Cyber Security,Rohit

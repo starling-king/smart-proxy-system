@@ -1,4 +1,19 @@
 Day,Time,Department,ClassOrLab,Subject,TeacherKey
+Monday,10:00 AM,CS,Room 101,DBMS,Amit
+Monday,11:00 AM,CS,Lab 1,Python,Amit
+Monday,2:00 PM,IT,Room 102,OS,Amit
+Tuesday,9:00 AM,IT,Room 201,Networking,Amit
+Tuesday,10:00 AM,CS,Lab 2,Data Structures,Amit
+Tuesday,1:00 PM,CS,Room 103,AI,Amit
+Wednesday,10:00 AM,CS,Room 104,Cloud,Amit
+Wednesday,11:00 AM,IT,Lab 3,Web Dev,Amit
+Wednesday,2:00 PM,CS,Room 105,DBMS,Amit
+Thursday,9:00 AM,CS,Lab 1,Python,Amit
+Thursday,12:00 PM,IT,Room 202,OS,Amit
+Thursday,3:00 PM,CS,Room 106,Cyber Security,Amit
+Friday,10:00 AM,IT,Room 203,Networking,Amit
+Friday,11:00 AM,CS,Lab 2,AI,Amit
+Friday,2:00 PM,CS,Room 107,Data Science,Amit
 Saturday,10:00 AM,CS,Lab 1,Python,Amit
 Saturday,11:00 AM,CS,Room 101,DBMS,Amit
-Saturday,02:00 PM,IT,Room 102,OS,Amit
+Saturday,2:00 PM,IT,Room 102,OS,Amit
